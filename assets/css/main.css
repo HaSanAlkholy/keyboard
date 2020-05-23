@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

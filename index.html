@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/vendor/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1 class="text-center m-5">
+            Text translator
+        </h1>
+    </div>
+
+
+    <div id="effects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6 text-center flex mx-auto ">
+                    <p>Font Size: </p>
+                    <input type="number" class="form-control" id="size" value="16">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="translator">
+        <div class="container">
+            <div class="row mt-5 p-5">
+                <div class="col-md-6 col-6">
+                    <h3>English letters here:</h3>
+                </div>
+                <div class="col-md-6 col-6">
+                    <h3>Arabic here:</h3>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="form-groub"><textarea class="form-control" id="en" rows="5"></textarea></div>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="form-groub"><textarea class="form-control" id="ar" rows="5"></textarea></div>
+                </div>
+                <div class="col-md-6 mx-auto my-5 text-center">
+                    <button class="btn btn-danger mx-auto" id="clear">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/vendor/all.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
